@@ -1,4 +1,4 @@
-package com.binary_winters.springbootbackendchat;
+package com.binary_winters.springboot.backend.chat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
