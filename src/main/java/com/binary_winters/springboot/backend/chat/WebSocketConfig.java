@@ -14,7 +14,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer{
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		
 		// I'm gonna use this route to connect from Angular to this broker.
-		registry.addEndpoint("/chat/websocket")
+		registry.addEndpoint("/chat-websocket")
 		.setAllowedOrigins("http://localhost:4200")
 		.withSockJS(); // With sock 10 the http protocol can be used to connect to the broker. So from a web browser will be possible to connect by using the http protocol instead of ws. 
 
